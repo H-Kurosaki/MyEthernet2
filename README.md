@@ -1,4 +1,4 @@
-このライブラリはWiz550ioの機能を有効に活用するためにEthernet2ライブラリから改変し分岐させたものです。
+このライブラリはWiz550ioの機能を有効に活用するためにEthernet2ライブラリ(https://github.com/adafruit/Ethernet2)を改変したものです。
 Wiz550ioのROMに書き込まれた内蔵MACアドレス設定機能を有効化しています。
 MACアドレスをソースコード上にハードコーディングしなくても自動的に正しいMACアドレスが割り当てられます。
 
@@ -22,7 +22,7 @@ Ethernetの初期化を複数回行うと異常な動作をします。
 Ethernetを再初期化する場合はW5500にハードウェアリセットをかけてください。
 なお、この問題はEthernet2ライブラリVer1.0.4では発生しません。
 
-This library is a modified and branched version of Ethernet2 library Ver1.0.3 in order to make effective use of Wiz550io's functions.
+This library is a modified and branched version of Ethernet2 library(https://github.com/adafruit/Ethernet2) in order to make effective use of Wiz550io's functions.
 It enables the built-in MAC address setting function written in the ROM of Wiz550io.
 It automatically assigns the correct MAC address without hardcoding the MAC address in the source code.
 
